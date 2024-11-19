@@ -1,0 +1,258 @@
+
+h1{
+    font-size: 100px;
+    text-align: left;
+    font-family: "Edu AU VIC WA NT Pre",serif;
+    background-color: rgb(161, 12, 12); 
+   
+    
+}
+
+#body1{
+    background-color: rgb(194, 14, 14);
+    
+}
+
+#text1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Edu AU VIC WA NT Pre",serif;
+    
+
+} 
+#top{
+    text-align: right;
+    font-size: 30px;
+    font-family: "Caveat",cursive;
+    background-color:#a10c0c ;
+}
+    #top2{
+      text-align: left;
+      font-size: 30px;
+      font-family: "Caveat",cursive;
+      background-color:#a10c0c ;
+
+    
+    
+}
+#main-text{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Caveat",cursive;
+
+}
+
+#load{
+    background-color:rgb(82, 2, 2);
+    animation-name: load;
+    animation-delay: 1s;
+    height: 10px;
+    width: 0px;
+    animation-duration: 8s;
+    text-align: right;
+    font-size: 40px;
+    font-family: "Caveat",cursive;
+}
+#one{
+  animation-name: gasser;
+  animation-delay: 0.5s;
+  height: 10px;
+  width: 0px;
+  animation-duration: 8s;
+  text-align: right;
+  font-size: 40px;
+  font-family:"Caveat",cursive;
+  animation-iteration-count: infinite;
+}
+#button1{
+  background-color: rgb(196, 160, 160);
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  position: relative;
+  top: 0px;
+  left: 600px;
+
+
+}
+
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height:300px;
+    align-self: center;
+    animation-name: card;
+    animation-duration: 3.5s;
+    animation-delay: 2s;
+     
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    
+    
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    align-self: center;
+   
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    align-self: center;
+    
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    align-self: center;
+   
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    align-self: center;
+
+   
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    align-self: center;
+    
+    
+  }
+  #name{
+    font-size: 50px;
+    font-family: "Caveat",cursive;
+  }
+  
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card2{
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  animation-name: card;
+  animation-duration: 3.5s;
+  animation-delay: 2s;
+   
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  align-self: center;
+ 
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card2:hover .flip-card-inner2{
+  transform: rotateY(180deg);
+  align-self: center;
+  
+}
+
+/* Position the front and back side */
+.flip-card-front2, .flip-card-back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  align-self: center;
+ 
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front2 {
+  background-color: #bbb;
+  color: black;
+  align-self: center;
+
+ 
+}
+
+/* Style the back side */
+.flip-card-back2 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  align-self: center;
+  
+  
+}
+#name2{
+  font-size: 50px;
+  font-family: "Caveat",cursive;
+}
+
+
+
+
+
+
+@keyframes load{
+        0%{
+        width: 0;
+    
+        }
+        25%{
+           width: 1000px;
+        }
+        50%{
+            width: 0;
+        }
+       
+
+
+    }
+    
+@keyframes gasser{
+  from{
+    width: 0 ;
+
+}
+to{
+  width: 100;
+}
+ 
+
+
+}
+
+
+
+
+
+
+
